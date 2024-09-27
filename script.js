@@ -56,7 +56,7 @@ filterRegion.addEventListener('change', () => {
         data.forEach(country => {
             const anchorTag = document.createElement('a')
             anchorTag.classList.add('card')
-            anchorTag.href = `/country.html?name=${country.name.common}`
+            anchorTag.href = `country.html?name=${country.name.common}`
             const cards = `
                 <div class="image">
                     <img src="${country.flags.svg}" alt="flag">
@@ -79,7 +79,7 @@ function rendringData (data) {
         data.forEach(country => {
             const anchorTag = document.createElement('a')
             anchorTag.classList.add('card')
-            anchorTag.href = `/country.html?name=${country.name.common}`
+            anchorTag.href = `country.html?name=${country.name.common}`
             const cards = `
                 <div class="image">
                     <img src="${country.flags.svg}" alt="flag">
